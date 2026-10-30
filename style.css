@@ -649,6 +649,22 @@ textarea:focus-visible {
     font-size: 40px;
 }
 
+.installation-image {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.installation-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
 .installation-number {
     display: block;
     margin-bottom: 8px;
